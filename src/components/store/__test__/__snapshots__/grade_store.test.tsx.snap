@@ -1,0 +1,34 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Store Zustand grade > Test can add a picture in the picture array 1`] = `
+[
+  {
+    "comment": "test",
+    "dateAdded": "2021-10-10",
+    "grade": 1,
+    "id": 1,
+    "title": "test",
+  },
+]
+`;
+
+exports[`Store Zustand grade > Test can add multiple element in the picture array 1`] = `
+[
+  {
+    "comment": "test",
+    "dateAdded": "2021-10-10",
+    "grade": 1,
+    "id": 1,
+    "title": "test",
+  },
+  {
+    "comment": "test",
+    "dateAdded": "2021-10-10",
+    "grade": 1,
+    "id": 2,
+    "title": "test",
+  },
+]
+`;
+
+exports[`Store Zustand grade > Test can remove a picture in mutiple picture array 1`] = `[]`;
